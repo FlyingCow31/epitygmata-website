@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Commandez</title>
+</head>
+<body>
+     <section class="processpaiement">
+          <div class="commandezcmd">
+               <img src="img/panier.png" alt="icone panier" class="iconepanier">
+               <h2>Commander</h2>
+               <p>Commandez via le formulaire ci-dessous ou sur notre discord!</p>
+          </div>
+          <div class="deverouillezcmd">
+               <img src="img/cadenas.png" alt="cadenas icone" class="iconecadenas">
+               <h2>Déverrouiller la</h2>
+               <h2>commande</h2>
+               <p>
+                    <div>Déverrouillez la commande en nous</div>
+                    <div> transmettant le cahier des charges, votre</div>
+                    <div>budget ainsi que le temps imparti pour la</div>
+                    <div>réalisation de votre commande!</div>
+               </p>
+          </div>
+          <div class="payercmd">
+               <img src="img/pay-pal.png" alt="paypal icone" class="iconepaypal">
+               <h2>Payer</h2>
+               <p>Payez l'acompte de votre commande.</p>
+          </div>
+          <div>
+               <img src="img/avion.png" alt="icone avion" class="iconeavion">
+               <h2>Soyez livré!</h2>
+               <p>
+                    <div>Nous nous mettons au travail! Nous vous</div>
+                    <div>rendrons votre projet dans quelques</div>
+                    <div>jours !</div>
+               </p>
+          </div>
+     </section>
+
+     <section class="commandeurgente">
+          <h2>Commande urgente?</h2>
+          <p>Rejoignez notre discord et ouvrez une commande la-bas pour qu'elle soit prise en compte plus vite !</p>
+          <a href="https://discord.gg/nKmrsHdQ4v">Contactez-nous</a>
+     </section>
+
+     <section class="form-commande">
+          <form action="" method="post" class="form-commande">
+               <div class="form-commande1">
+                    <label for="name">Votre nom</label>
+                    <input type="text" id="name" name="name" required>
+               </div>
+               <div class="form-commande2">
+                    <label for="pseudo">Votre @ discord</label>
+                    <input type="text" id="pseudo" name="pseudo" pattern="@[a-zA-Z0-9.]+">
+               </div>
+               <div class="form-commande3">
+                    <label for="email">Votre Email</label>
+                    <input type="email" id="email" name="email" required>
+               </div>
+               <div class="form-commande4">
+                    <label for="service"> Le/les service(s) choisis</label>
+                    <input type="text" id="service" name="service" required>
+               </div>  
+               <div class="form-commande5">
+                    <label for="deadline">Temps imparti pour la commande</label>
+                    <input type="date" id="deadline" name="deadline">
+               </div>
+               <div class="form-commande6">
+                    <label for="descprojet"> Décrivez votre projet en détails</label>
+                    <textarea id="descprojet" name="descprojet" required-rows="3" rows="4" cols="40"></textarea>
+               </div>
+               <input type="submit" value="Envoyer!" class="commandesubmit">
+          </form>
+     </section>
+     
+</body>
+</html>

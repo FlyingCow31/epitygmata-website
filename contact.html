@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>EPITYGMATA | Contactez-nous</title>
+</head>
+<body>
+     <main>
+          <h2>Contactez-nous</h2>
+          <p>
+               <div><i>Vous avez un avis? Vous avez une quelconque question? Vous souhaitez obtenir des renseignements?</i></div>
+               <div>Contactez-nous via ce formulaire en précisant un maximum votre projet pour que l'on puisse vous fournir l' assistance la</div>
+               <div>plus personnalisée possible.</div>
+               <span><i>Pour une réponse et une prise en charge plus rapide, rejoignez notre <a href="https://discord.gg/nKmrsHdQ4v">serveur discord</a>.</i></span>
+          </p>
+     </main>
+     <section>
+          <form action="" method="post" class="form-contact"> 
+               <div class="form-contact1">
+                    <label for="name">Nom/Pseudo:</label>
+                    <input type="text" name="name" id="name" required />
+               </div>
+               <div class="form-contact2">
+                    <label for="atName">Identifiant discord:</label>
+                    <input type="text" id="atName" name="atName" pattern="@[a-zA-Z0-9.]+" required>
+                    <div><i>votre pseudo doit commencer avec "@"</i></div>
+               </div>
+               <div class="form-contact3">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+               </div>
+               <div class="form-contact4">
+                    <label for="title">Titre</label>
+                    <input type="text" id="title" name="title" required>
+               </div>
+               <div class="form-contact5">
+                    <label for="commentaire">Avis ou commentaire:</label>
+                    <textarea name="commentaire" id="commentaire" required-rows="3" cols="40"></textarea>
+               </div>
+               <div class="submitform">
+                    <input type="submit" value="Envoyer!" />
+               </div>
+          </form>
+     </section>    
+</body>
+</html>
