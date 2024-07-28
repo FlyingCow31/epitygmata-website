@@ -3,8 +3,6 @@ body {
   margin: 0px;
 }
 
-
-
 main {
   text-align: center;
   font-size: 50px;
@@ -76,36 +74,95 @@ main {
 .cactusmain {
   max-width: 400px;
   height: auto;
-  margin-left: 15px
   /*flex-grow: 1; makes the item take all the remaining flex space*/
   /*align-self: start; override the main container setting align-items for this item on the cross*/
   /*order: -1; change the order of items (first item is 0, so if you want to put the last one first, you have to make it -1)*/
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
-.titlemainavis1 {
+.titlemainavis {
   color: rgb(24, 87, 99);
-  margin-left: 15px
 }
 .mainavis1 {
   margin-top: -20px;
-  margin-left: 15px
 }
 
-.titledot span{
-  font-size: 40px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  /*background-color: rgb(101, 189, 189);*/
-  margin-left: 15px;
-  color: rgb(0, 0, 0);
+.titledotspan {
+  width: 35px;
+  height: auto;
+  transform: translate(7px, 7px);
 }
 .titledot {
   display: block;
   width: 50px;
   height: 50px;
   background-color: #70b6b8;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin: 10px;
+}
+.textavismain {
+  font-style: italic;
+  transform: translate(120px, -50px);
+  position: relative;
+  z-index: 2;
+  font-size: 25px;
+  color: #3d3d3d;
+}
+.carregris {
+  display: block;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(248,248,251,255);
+  transform: translate(60px, -166px);
+  position: absolute;
+  z-index: 1;
+}
+.avis {
+  background-color: #ffffff;
+  margin: 30px;
+  border-radius: 5px;
+  height: 600px;
 }
 
+.pfpimageavis {
+  border-radius: 60px;
+  position: absolute;
+  height: 50px;
+  width: auto;
+  transform: translate(100px, -40px);
+  z-index: 2;
+}
 
+.titleatover {
+  position: absolute;
+  z-index: 2;
+  font-weight: bold;
+  color: #88898d;
+  transform: translate(170px, -45px);
+  font-size: 20px;
+  font-style: italic;
+}
 
+.carregris2 {
+  display: block;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(248,248,251,255);
+  transform: translate(60px, -133px);
+  position: absolute;
+  z-index: 1;
+}
+
+.carregris3 {
+  display: block;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(248,248,251,255);
+  transform: translate(60px, -133px);
+  position: absolute;
+  z-index: 1;
+}
 
 .star-rating1 {
   font-size: 30px;
@@ -114,6 +171,7 @@ main {
    
 .star-rating1:hover {
   color: #666; /* couleur sur hover */
+  cursor: default;
 }
    
 .star-rating1[data-rating="1"] {
@@ -135,3 +193,158 @@ main {
 .star-rating1[data-rating="5"] {
   color: #dfc44d; /* bleu pour 5 étoiles */
 }
+/*end of opinion section*/
+/*stats section*/
+
+.stats {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-evenly;
+  align-items: start;
+  flex-wrap: wrap;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f3f2f2;
+}
+.stats1 {
+  margin-left: 90px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.numberstats {
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.descstats {
+  font-size: 20px;
+  margin-top: 0px;
+  color: rgb(24, 87, 99);
+  font-weight: 600;
+}
+.stats2 {
+  margin-left: 150px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.stats3 {
+  margin-left: 135px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+.stats4 {
+  margin-left: 165px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+/* end of the stats section*/
+hr {
+  background-color: #000;
+  height: 1px;
+  border: none;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Beginning of the infos section*/
+
+.diaporama {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-evenly;
+  align-items: start;
+  flex-wrap: wrap;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f3f2f2;
+  margin-bottom: 0px;
+}
+
+.diapo-title {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0px;
+  color: rgb(24, 87, 99);
+  margin-top: 10px;
+}
+
+.diapo-subtitle {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  font-style: italic;
+  color: rgb(24, 87, 99);
+}
+
+.diapo-content {
+  text-align: center;
+}
+.strongito {
+  font-weight: 500;
+}
+.buttonforms {
+  text-decoration: none;
+  color: #000;
+  background-color: rgb(30, 137, 158);
+  padding: 10px;
+  border-radius: 20px;
+}
+/* fin de la section des infos*/
+/*Début de la section du slogan*/
+
+.slogan {
+  background-color: #f3f2f2;
+  margin-top: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.slogantitle {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0px;
+  color: #000;
+  margin-top: 0px;
+  text-decoration: underline 3px;
+  padding-top: 15px;
+}
+
+.slogansubtitle {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.slogancontent {
+  text-align: center;
+  color: #000;
+  line-height: 1.5em;
+}
+
+.slogancontent a{
+  color: rgb(30, 137, 158);
+}
+
+.buttonforms2 {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  background-color: rgb(30, 137, 158);
+  padding: 10px;
+  border-radius: 5px;
+}
+.centerdiv {
+  text-align: center;
+}
+.slogan img{
+  width: 400px;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+

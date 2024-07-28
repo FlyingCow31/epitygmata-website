@@ -1,0 +1,80 @@
+
+.barrerech {
+     margin-top: 10px;
+}
+.signaturebarrerech{
+     width: 100px;
+     height: auto;
+}
+.barrederecherche {
+     background-color: #fafafa;
+     border-radius: 100px;
+     border-color: rgb(58, 58, 58);
+     border-style: ridge;
+     border-width: 1px;
+}
+.avisrech {
+     text-decoration: none;
+     color: black;
+     position: absolute;
+     top: 10px;
+     margin: 10px;
+     margin-left: -10px;
+     background-color: #fafafa;
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 10px;
+}
+
+.avisrech:hover {
+     background-color: rgb(30, 137, 158);
+     text-decoration: underline;
+}
+
+.indexrech {
+     text-decoration: none;
+     color: black;
+     position: absolute;
+     top: 10px;
+     margin: 10px;
+     margin-left: 64px;
+     background-color: #fafafa;
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 10px;
+}
+
+.indexrech:hover {
+     text-decoration: underline 1px;
+     color: black;
+     background-color: rgb(30, 137, 158);
+}
+.boutiquerech {
+     text-decoration: none;
+     color: black;
+     position: absolute;
+     top: 10px;
+     margin: 10px;
+     margin-left: 200px;
+     background-color: #fafafa;
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 10px;
+}
+
+.boutiquerech:hover {
+     text-decoration: underline 1px;
+     color: black;
+     background-color: rgb(30, 137, 158);
+}
+
+.imagecommentrech {
+     width: 40px;
+     height: auto;
+     transform: translate(320px, -6px);
+     
+}
+
