@@ -1,6 +1,8 @@
 
 .barrerech {
+     top: 10px;
      margin-top: 10px;
+     position: sticky;
 }
 .signaturebarrerech{
      width: 100px;
@@ -17,7 +19,6 @@
      text-decoration: none;
      color: black;
      position: absolute;
-     top: 10px;
      margin: 10px;
      margin-left: -10px;
      background-color: #fafafa;
@@ -36,7 +37,6 @@
      text-decoration: none;
      color: black;
      position: absolute;
-     top: 10px;
      margin: 10px;
      margin-left: 64px;
      background-color: #fafafa;
@@ -55,7 +55,6 @@
      text-decoration: none;
      color: black;
      position: absolute;
-     top: 10px;
      margin: 10px;
      margin-left: 200px;
      background-color: #fafafa;
