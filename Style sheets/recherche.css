@@ -39,11 +39,11 @@
      top: 10px;
      margin: 10px;
      margin-left: 64px;
-     background-color: #fafafa;
+     background-color: rgb(30, 137, 158);
      padding: 10px;
      padding-left: 15px;
      padding-right: 15px;
-     border-radius: 10px;
+     border-radius: 20px;
 }
 
 .indexrech:hover {

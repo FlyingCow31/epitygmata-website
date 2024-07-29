@@ -1,0 +1,308 @@
+body {
+     margin: 0px;
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.titlepage {
+     text-align: center;
+     font-size: 40px;
+     font-weight: 600;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.citation {
+     text-align: center;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: rgb(24, 87, 99);
+}
+
+.linebreak{
+  display: block;
+}
+
+/* copié collé de style.css*/
+.mainavis {
+     display: flex;
+     flex-direction: column; 
+     /*It turns the box into a column instead of a row (default)*/
+     justify-content: space-evenly;
+     /*It makes the items be spread evenly in the main axis (the depth axis)*/
+     align-items: start;
+     /*same but on the cross axis (side axis)*/
+     flex-wrap: wrap;
+     /*it makes the items not crush eachothers (default: nowrap*/
+     gap: 1em;
+     /*add a gap between items*/
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-left: 0px; 
+     background-color: #f3f2f2;
+     margin-bottom: 0;
+   }
+   .cactusmain {
+     max-width: 400px;
+     height: auto;
+     /*flex-grow: 1; makes the item take all the remaining flex space*/
+     /*align-self: start; override the main container setting align-items for this item on the cross*/
+     /*order: -1; change the order of items (first item is 0, so if you want to put the last one first, you have to make it -1)*/
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+   }
+   .titlemainavis {
+     color: rgb(24, 87, 99);
+   }
+   .mainavis1 {
+     margin-top: -20px;
+   }
+   
+   .titledotspan {
+     width: 35px;
+     height: auto;
+     transform: translate(7px, 7px);
+   }
+   .titledot {
+     display: block;
+     width: 50px;
+     height: 50px;
+     background-color: #70b6b8;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     margin: 10px;
+   }
+   .textavismain {
+     font-style: italic;
+     transform: translate(75px, -45px);
+     position: relative;
+     z-index: 2;
+     font-size: 25px;
+     color: #3d3d3d;
+   }
+   .carregris {
+     display: block;
+     width: 300px;
+     height: 200px;
+     background-color: rgba(248,248,251,255);
+     transform: translate(60px, -166px);
+     position: absolute;
+     z-index: 1;
+   }
+   .avis {
+     background-color: #ffffff;
+     margin: 30px;
+     border-radius: 5px;
+     height: 600px;
+   }
+   
+   .pfpimageavis {
+     border-radius: 60px;
+     position: absolute;
+     height: 50px;
+     width: auto;
+     transform: translate(100px, -40px);
+     z-index: 2;
+   }
+   
+   .titleatover {
+     position: absolute;
+     z-index: 2;
+     font-weight: bold;
+     color: #88898d;
+     transform: translate(170px, -45px);
+     font-size: 20px;
+     font-style: italic;
+   }
+   
+   .carregris2 {
+     display: block;
+     width: 300px;
+     height: 200px;
+     background-color: rgba(248,248,251,255);
+     transform: translate(60px, -133px);
+     position: absolute;
+     z-index: 1;
+   }
+   
+   .carregris3 {
+     display: block;
+     width: 300px;
+     height: 200px;
+     background-color: rgba(248,248,251,255);
+     transform: translate(60px, -133px);
+     position: absolute;
+     z-index: 1;
+   }
+   
+   .star-rating1 {
+     font-size: 30px;
+     color: #ccc; /* couleur par défaut */
+   }
+      
+   .star-rating1:hover {
+     color: #666; /* couleur sur hover */
+     cursor: default;
+   }
+      
+   .star-rating1[data-rating="1"] {
+     color: #FF0000; /* rouge pour 1 étoile */
+   }
+      
+   .star-rating1[data-rating="2"] {
+     color: #FF9900; /* orange pour 2 étoiles */
+   }
+      
+   .star-rating1[data-rating="3"] {
+     color: #FFFF00; /* jaune pour 3 étoiles */
+   }
+      
+   .star-rating1[data-rating="4"] {
+     color: #00CC00; /* vert pour 4 étoiles */
+   }
+      
+   .star-rating1[data-rating="5"] {
+     color: #dfc44d; /* bleu pour 5 étoiles */
+   }
+   /* fin copié collé de style.css*/
+
+.laissezavis {
+  background-color: #70b7b9;
+  margin-top: 0;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+
+
+.laissezavis h1{
+  font-size: 30;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 15px;
+}
+
+.laissezavis p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.laissezavis a{
+  background-color: #447572;
+  border-radius: 30px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 360px;
+}
+
+/*Banniere C/C*/
+.banniere {
+  background-color: #245362;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+/* Parametres généraux*/
+.liensutiles span{
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  margin-top: 0px;
+  display: block;
+}
+.liensutiles div{
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+
+.lienbanniere {
+  text-decoration: underline 0.5px;
+  color: #7dbea6;
+  margin-left: 15px;
+  margin-top: 0px;
+}
+/*fin des liens*/
+
+/*Début du à propos*/
+.bannieretitle {
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  padding-top: 20px;
+  display: block;
+}
+
+.bannieretextpropos {
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.citationgael {
+  font-style: italic;
+}
+.gaelcitation {
+  font-weight: 500;
+  font-size: 17px;
+  padding-top: 1px;
+  display: block;  
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 15px;
+}
+/*fin du à Propos*/
+/*Début de "nous joindre*/
+
+.nousjoindrebannieretitle {
+  margin-left: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  display: block;
+  padding-top: 20px;
+}
+
+.iconcomment {
+  width: 20px;
+  height: auto;
+  margin-left: 5px;
+}
+.iconmail {
+  width: 20px;
+  height: auto;
+  margin-left: 5px;
+}
+.icondiscord {
+  width: 20px;
+  height: auto;
+  margin-left: 5px;
+}
+
+.nousjoindre a{
+  text-decoration: underline 0.5px;
+  color: #7dbea6;
+  margin-left: 15px;
+}
+
+.copyright p{
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #1f4753;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
