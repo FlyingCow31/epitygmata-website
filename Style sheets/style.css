@@ -1,6 +1,7 @@
 /* Je ferais le responsive design à la fin, la je fais le design sur mobile */
 body {
   margin: 0px;
+  overflow-x: hidden;
 }
 
 main {
@@ -344,7 +345,6 @@ hr {
   padding-bottom: 20px;
 }
 html, body {
-  overflow-x: hidden;
   max-width: 100%;
 }
 
