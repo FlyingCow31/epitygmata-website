@@ -30,9 +30,6 @@ header {
      font-weight: 500;
      padding-bottom: 50px;
 }
-ul {
-     list-style-type: none;
-}
 
 /* first Card for the carousel*/
 .offrepremiumsite {
@@ -60,6 +57,28 @@ ul {
      font-size: 25px;
      margin: 0px;
 }
+
+.priceone {
+     border: 1px solid #cccfd1;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     padding-bottom: 10px;
+     padding-top: 15px;
+     background-color: #ffffff;
+     margin: 0px;
+}
+
+.price {
+     font-size: 50px;
+     font-weight: 700;
+}
+
+.italic {
+     font-style: italic;
+     font-size: 13px;
+}
+
 .offrepremiumsite h3 {
      border: 1px solid #cccfd1;
      border-top: 0px;
@@ -74,7 +93,7 @@ ul {
      margin: 0px;
 }
 
-.offrepremiumsite p {
+.textpremiumsite {
      border: 1px solid #cccfd1;
      border-top: 0px;
      border-left: 0px;
@@ -85,8 +104,8 @@ ul {
      margin: 0px;
 }
 
-.offrepremiumsite a { 
-     background-color: rgb(30, 137, 158);
+.boutonboutique { 
+     background-color: rgb(68,117,114);
      border-radius: 10px;
      padding: 10px;
      text-decoration: none;
@@ -95,4 +114,217 @@ ul {
 .offrepremiumsite div{
      padding-top: 20px;
 }
+
 /*Card boutique 2*/
+
+
+
+/*Template à copier coller*/
+     /*Termplate gris*/
+     .tableaugris {
+          text-align: center;
+          border: 1px solid #cccfd1;
+          border-radius: 10px;
+          margin-left: 5px;
+          background-color: rgb(218, 221, 224);
+          padding-bottom: 20px; 
+     }
+     .titletbgris {
+          border: 1px solid #cccfd1;
+          border-top: 0px;
+          border-left: 0px;
+          border-right: 0px;
+          border-top: 0px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          background-color: rgb(218, 221, 224);
+          margin-top: 0px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-size: 25px;
+          margin: 0px;
+     }
+     .prixtbgris {
+          border: 1px solid #cccfd1;
+          border-top: 0px;
+          border-left: 0px;
+          border-right: 0px;
+          padding-bottom: 10px;
+          padding-top: 15px;
+          background-color: #ffffff;
+          margin: 0px;
+     }
+     .prixgristb {
+          font-size: 50px;
+          font-weight: 700;
+     }
+     .tableaugris h3 {
+          border: 1px solid #cccfd1;
+          border-top: 0px;
+          border-left: 0px;
+          border-right: 0px;
+          background-color: #ffffff;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 19px;
+          margin: 0px;
+     }
+     .linestbgris {
+          border: 1px solid #cccfd1;
+          border-top: 0px;
+          border-left: 0px;
+          border-right: 0px;
+          padding-bottom: 6px;
+          padding-top: 10px;
+          background-color: #ffffff;
+          margin: 0px;
+     }
+     .tableaugris div {
+          padding-top: 20px;
+     }
+     
+     /*template dark*/
+          .tableaudark {
+               text-align: center;
+               border: 1px solid #456d79;
+               border-radius: 10px;
+               margin-left: 5px;
+               background-color: rgb(35,80,95);
+               padding-bottom: 20px; 
+          }
+          .titletbdark {
+               border: 1px solid #456d79;
+               border-top: 0px;
+               border-left: 0px;
+               border-right: 0px;
+               border-top: 0px;
+               border-top-left-radius: 10px;
+               border-top-right-radius: 10px;
+               background-color: rgb(35,80,95);
+               margin-top: 0px;
+               padding-top: 10px;
+               padding-bottom: 10px;
+               font-size: 25px;
+               margin: 0px;
+               color: #ffffff;
+          }
+          .prixtbdark {
+               border: 1px solid #456d79;
+               border-top: 0px;
+               border-left: 0px;
+               border-right: 0px;
+               padding-bottom: 10px;
+               padding-top: 15px;
+               background-color: #eaeef0;
+               margin: 0px;
+          }
+          .prixdarktb {
+               font-size: 50px;
+               font-weight: 700;
+          }
+          .tableaudark h3 {
+               border: 1px solid #456d796b;
+               border-top: 0px;
+               border-left: 0px;
+               border-right: 0px;
+               background-color: #ffffff;
+               padding-bottom: 10px;
+               padding-top: 10px;
+               text-decoration: none;
+               font-weight: 400;
+               font-size: 19px;
+               margin: 0px;
+          }
+          .linestbdark {
+               border: 1px solid #456d7975;
+               border-top: 0px;
+               border-left: 0px;
+               border-right: 0px;
+               padding-bottom: 6px;
+               padding-top: 10px;
+               background-color: #ffffff;
+               margin: 0px;
+          }
+          .linetbdarkspecial {
+               color: #ffffff
+          }
+          .tableaudark div {
+               padding-top: 20px;
+          }
+     
+     /*Template bright*/
+     .tableaubright {
+          text-align: center;
+          border: 1px solid #456d79;
+          border-radius: 10px;
+          margin-left: 5px;
+          background-color: rgb(108,177,179);
+          padding-bottom: 20px; 
+     }
+     .titletbbright {
+          border: 1px solid #f1f8f8;
+          border-top: 0px;
+          border-left: 0px;
+          border-right: 0px;
+          border-top: 0px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          background-color: rgb(108,177,179);
+          margin-top: 0px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-size: 25px;
+          margin: 0px;
+          color: #000000;
+     }
+     .prixtbbright {
+          border: 1px solid #456d79;
+          border-top: 0px;
+          border-left: 0px;
+          border-right: 0px;
+          padding-bottom: 10px;
+          padding-top: 15px;
+          background-color: #f1f8f8;
+          margin: 0px;
+     }
+     .prixbrighttb {
+          font-size: 50px;
+          font-weight: 700;
+     }
+     .tableaubright h3 {
+          border: 1px solid #456d796b;
+          border-top: 0px;
+          border-left: 0px;
+          border-right: 0px;
+          background-color: #ffffff;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 19px;
+          margin: 0px;
+     }
+     .linestbbright {
+          border: 1px solid #456d7975;
+          border-top: 0px;
+          border-left: 0px;
+          border-right: 0px;
+          padding-bottom: 6px;
+          padding-top: 10px;
+          background-color: #ffffff;
+          margin: 0px;
+     }
+     .linetbbrightspecial {
+          color: #000000
+     }
+     .tableaubrightdiv {
+          padding-top: 20px;
+     }
+
+
+/*Hover et animations*/
+.boutonboutique:hover {
+     background-color: rgb(57, 99, 96);
+}
