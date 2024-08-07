@@ -117,6 +117,136 @@ header {
 
 /*Card boutique 2*/
 
+.offreprosite {
+     text-align: center;
+     border: 1px solid #456d79;
+     border-radius: 10px;
+     margin-left: 5px;
+     background-color: rgb(35,80,95);
+     padding-bottom: 20px; 
+     margin-top: 10px;
+}
+.cardboutiquetitle2 {
+     border: 1px solid #456d79;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     border-top: 0px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     background-color: rgb(35,80,95);
+     margin-top: 0px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 25px;
+     margin: 0px;
+     color: #ffffff;
+}
+.pricetwo {
+     border: 1px solid #456d79;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     padding-bottom: 10px;
+     padding-top: 15px;
+     background-color: #eaeef0;
+     margin: 0px;
+}
+.offreprosite h3 {
+     border: 1px solid #456d796b;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     background-color: #ffffff;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     text-decoration: none;
+     font-weight: 400;
+     font-size: 19px;
+     margin: 0px;
+}
+.textprosite {
+     border: 1px solid #456d7975;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     padding-bottom: 6px;
+     padding-top: 10px;
+     background-color: #ffffff;
+     margin: 0px;
+}
+.offreprosite a{
+     color: #ffffff
+}
+.offreprosite div {
+     padding-top: 20px;
+}
+
+/*card boutique website 3*/
+.offrebasiquesite {
+     text-align: center;
+     border: 1px solid #456d79;
+     border-radius: 10px;
+     margin-left: 5px;
+     background-color: rgb(108,177,179);
+     padding-bottom: 20px; 
+     margin-top: 10px;
+}
+.cardboutiquetitle3 {
+     border: 1px solid #f1f8f8;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     border-top: 0px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     background-color: rgb(108,177,179);
+     margin-top: 0px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 25px;
+     margin: 0px;
+     color: #000000;
+}
+.pricethree {
+     border: 1px solid #456d79;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     padding-bottom: 10px;
+     padding-top: 15px;
+     background-color: #f1f8f8;
+     margin: 0px;
+}
+.offrebasiquesite h3 {
+     border: 1px solid #456d796b;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     background-color: #ffffff;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     text-decoration: none;
+     font-weight: 400;
+     font-size: 19px;
+     margin: 0px;
+}
+.textbasiquesite {
+     border: 1px solid #456d7975;
+     border-top: 0px;
+     border-left: 0px;
+     border-right: 0px;
+     padding-bottom: 6px;
+     padding-top: 10px;
+     background-color: #ffffff;
+     margin: 0px;
+}
+.offrebasiquesite a{
+     color: #ffffff
+}
+.offrebasiquesite div{
+     padding-top: 20px;
+}
 
 
 /*Template à copier coller*/
