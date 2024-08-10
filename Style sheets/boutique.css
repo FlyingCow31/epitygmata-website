@@ -311,6 +311,9 @@ header {
           background-color: #ffffff;
           margin: 0px;
      }
+     .linetbgrisspecial {
+          font-style: italic;
+     }
      .tableaugris div {
           padding-top: 20px;
      }
@@ -378,7 +381,8 @@ header {
                margin: 0px;
           }
           .linetbdarkspecial {
-               color: #ffffff
+               color: #ffffff;
+               font-style: italic;
           }
           .tableaudark div {
                padding-top: 20px;
