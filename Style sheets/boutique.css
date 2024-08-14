@@ -248,6 +248,32 @@ header {
      padding-top: 20px;
 }
 
+/*Block Text (pre-config)*/
+.imagediscord {
+     width: auto;
+     height: 100px;
+} 
+
+.tmprcpdsc {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     border: 1px solid #2d5f6d;
+     border-radius: 10px;
+     background-color: #d6ebf1;
+     color: #2d5f6d;
+     /*Make the box not take the whole page*/
+     width: max-content;
+     max-width: 100%;
+}
+
+.fasttime {
+     height: 50px;
+     width: auto;
+
+}
+
+
 
 /*Template à copier coller*/
      /*Termplate gris*/
