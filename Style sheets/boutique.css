@@ -31,6 +31,13 @@ header {
      padding-bottom: 50px;
 }
 
+.bold {
+     font-weight: 600;
+}
+.underline {
+     text-decoration: underline;
+}
+
 /* first Card for the carousel*/
 .offrepremiumsite {
      text-align: center;
@@ -265,6 +272,12 @@ header {
      /*Make the box not take the whole page*/
      width: max-content;
      max-width: 100%;
+     padding-right: 10px;
+     padding-left: 10px;
+     text-align: left;
+     font-size: 17px;
+     margin-left: 10px;
+     margin-top: 25px;
 }
 
 .fasttime {
@@ -272,8 +285,59 @@ header {
      width: auto;
 
 }
+.tmprcpmc {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     border: 1px solid #2d5f6d;
+     border-radius: 10px;
+     background-color: #d6ebf1;
+     color: #2d5f6d;
+     /*Make the box not take the whole page*/
+     width: max-content;
+     max-width: 100%;
+     margin-top: 25px;
+     margin-left: 10px;
+}
 
+.boutonpage {
+     background-color: rgb(96, 167, 162);
+     border-radius: 10px;
+     padding: 10px;
+     text-decoration: none;
+     color: #000000;
+     margin-left: 10px;
+     text-align: center;
+}
+.boutonpage:hover {
+     background-color: rgb(72, 126, 122);
+     color: #ffffff;
+}
 
+.p1 {
+     margin-left: 10px;
+     font-size: 20px;
+     margin-top: 5px;
+     margin-bottom: 0px;
+}
+.p2 {
+     margin-left: 10px;
+     font-size: 20px;
+     margin-top: 2px;
+}
+
+.preconfigdiscord h2{
+     font-size: 30px;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+}
+
+.imagediscord {
+     width: auto;
+     height: 250px;
+     margin-top: 30px;
+     margin-left: 15px;
+}
 
 /*Template à copier coller*/
      /*Termplate gris*/
