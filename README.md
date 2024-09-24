@@ -10,3 +10,6 @@ I just modified it. The main features will stay here tho.
 I'm beginning with HTML, then switching to CSS and finishing with JS.
 If you have any suggestions, there's my contact in my github readme.md ! 
 You can also create a PR with the modifications/optimization (EXPLAIN THEM or I'll not accept them, I'm here to learn!)
+
+
+/Projet is deprecated/
