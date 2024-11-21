@@ -12,4 +12,4 @@ If you have any suggestions, there's my contact in my github readme.md !
 You can also create a PR with the modifications/optimization (EXPLAIN THEM or I'll not accept them, I'm here to learn!)
 
 
-/Projet is deprecated/
+project is moved here -> https://github.com/Epitygmata/officialwebsite
